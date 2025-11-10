@@ -15,6 +15,19 @@ Built entirely using **Power BI**, **Power Query**, and **DAX**.
 - Transformed date and duration fields
 - Filtered invalid or incomplete records
 
+## Insights
+- International Movies and Dramas have grown over the years
+
+- Movies and TV Shows increased significantly between 2015–2020
+
+- TV-MA is the most common rating
+
+- The U.S. and India produce the most content
+
+- Drama and Comedy are the most popular genres
+
+- The majority of Netflix titles are Movies
+
 ## DAX Measures
 Some key measures used:
 ```DAX
