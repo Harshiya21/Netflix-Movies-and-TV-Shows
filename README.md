@@ -2,7 +2,7 @@
 # Netflix Data Analysis Dashboard (Power BI)
 
 ## Project Overview
-This project analyzes Netflix content to identify trends in genres, ratings, release years, and audience engagement.  
+This project analyzes Netflix content to identify trends in genres, ratings, release years.
 Built entirely using **Power BI**, **Power Query**, and **DAX**.
 
 ## Tools & Techniques
@@ -12,7 +12,6 @@ Built entirely using **Power BI**, **Power Query**, and **DAX**.
 
 ## Data Cleaning (Power Query)
 - Removed duplicates and null values
-- Split combined columns (e.g., Director/Actor lists)
 - Transformed date and duration fields
 - Filtered invalid or incomplete records
 
@@ -21,4 +20,9 @@ Some key measures used:
 ```DAX
 Total_Titles = COUNTROWS(Netflix)
 Average_Duration = AVERAGE(Netflix[Duration])
-Top_Genres = CALCULATE(COUNTROWS(Netflix), ALLEXCEPT(Netflix, Netflix[Genre]))
+Total Shows = CALCULATE(DISTINCTCOUNT('category mapping'[show_id]))
+
+## Key Insights
+- International Movies and Dramas have grown the most in total titles.
+- Movies make up 70% of total content.
+- Movies and TV shows have significantly increased between 2015 and 2020.
