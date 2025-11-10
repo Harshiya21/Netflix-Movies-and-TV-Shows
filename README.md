@@ -21,8 +21,3 @@ Some key measures used:
 Total_Titles = COUNTROWS(Netflix)
 Average_Duration = AVERAGE(Netflix[Duration])
 Total Shows = CALCULATE(DISTINCTCOUNT('category mapping'[show_id]))
-
-## Key Insights
-- International Movies and Dramas have grown the most in total titles.
-- Movies make up 70% of total content.
-- Movies and TV shows have significantly increased between 2015 and 2020.
