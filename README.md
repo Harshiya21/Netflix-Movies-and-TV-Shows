@@ -15,6 +15,15 @@ Built entirely using **Power BI**, **Power Query**, and **DAX**.
 - Transformed date and duration fields
 - Filtered invalid or incomplete records
 
+## Dashboard Overview   
+<img width="1479" height="827" alt="image" src="https://github.com/user-attachments/assets/fc1b8243-a74a-4f15-9050-e2dbf2da65bb" />
+
+## Total Movies and Tv Shows by Release Year
+<img width="1770" height="860" alt="image" src="https://github.com/user-attachments/assets/3c913868-13cd-4792-b767-5971224df80b" />
+
+## Ratings by Total Titles
+<img width="1799" height="820" alt="image" src="https://github.com/user-attachments/assets/71d8dbd5-d019-41db-9c4e-6e3128508f15" />
+
 ## Insights
 - International Movies and Dramas have grown over the years
 
